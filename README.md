@@ -1,4 +1,4 @@
-# Lit-Simple-Boilerplate
+# Lit Simple Boilerplate
 Simple Lit Boilerplate using Vite and Typerscript (and pnpm)
 
 Setup Lit using Vite and TS (and pnpm)
