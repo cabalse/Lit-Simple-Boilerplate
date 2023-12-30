@@ -1,0 +1,20 @@
+{
+  "name": "lit_simple_boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for Lit project using Vite and TS",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lit": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
+  }
+}
