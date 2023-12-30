@@ -1,17 +1,17 @@
-import { LitElement, html, css } from "lit";
-import { customElement, property } from "lit/decorators.js";
+import { LitElement, html, css } from 'lit';
+import { customElement, property } from 'lit/decorators.js';
 
-@customElement("my-element")
+@customElement('my-element')
 export class MyElement extends LitElement {
   static styles = [
     css`
       :host {
         display: block;
       }
-    `,
+    `
   ];
 
-  @property() name = "to Lit Simple Boilerplate";
+  @property() name = 'to Lit Simple Boilerplate';
 
   render() {
     return html`<h1>Welcome ${this.name}</h1>`;
