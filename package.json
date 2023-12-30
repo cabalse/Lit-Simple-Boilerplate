@@ -4,6 +4,7 @@
   "description": "Boilerplate for Lit project using Vite and TS",
   "type": "module",
   "scripts": {
+    "build": "vite build",
     "dev": "vite",
     "lint": "eslint . --ext .ts",
     "prettier-format": "prettier ./**/*.ts --write --config .prettierrc"

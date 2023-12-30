@@ -13,5 +13,17 @@ export default defineConfig({
     stylelint({
       fix: true
     })
-  ]
+  ],
+  base: './',
+  build: {
+    outDir: 'dist',
+    emptyOutDir: true,
+    sourcemap: false,
+    minify: true,
+    rollupOptions: {
+      input: {
+        main: './index.html'
+      }
+    }
+  }
 });
